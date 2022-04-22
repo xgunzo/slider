@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Work+Sans:wght@300;700&display=swap');
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -28,6 +40,7 @@ nav h1 {
     background-repeat: none;
     background-size: cover;
     background-position-x: 53%;
+    background-position-y: 75%;
     height: 100%;
     color: #FFFFFF;
 }
@@ -51,7 +64,8 @@ nav h1 {
     height: 9px;
     border-radius: 50%;
     margin: 0.5em;
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
 }
 
 .navigation li.selected {
@@ -212,25 +226,35 @@ button:hover {
         font-size: 40px;
         width: 100%;
         line-height: 71px;
+        letter-spacing: 2.64px;
     }
 
     header h2 {
         font-size: 24px;
         line-height: 52px;
         margin-top: -2em;
+        letter-spacing: 1.94px;
     }
 
     .progress-bar {
         margin-top: -1em;
+        width: 30%;
+    }
+
+    section p {
+        width: 65%;
+        letter-spacing: 0.72px;
+        line-height: 30px;
+        text-align: left;
     }
 
     .buttons {
         flex-direction: row;
-        padding: 1em 0;
+        padding: 0.75em 0;
     }
     
     .buttons button {
-        margin-right: 1em;
+        margin-right: 1.5em;
     }
     
     .lorem-button {
@@ -269,25 +293,6 @@ button:hover {
     nav h1 {
         font-size: 27px;
     }
-
-    header h1 {
-        font-size: 60px;
-    }
-
-    header h2 {
-        font-size: 44px;
-        margin-top: -0.8em;
-    }
-
-    section p {
-        font-size: 18px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    nav h1 {
-        font-size: 27px;
-    }
     
     .wrapper {
         width: 75%;
@@ -302,6 +307,10 @@ button:hover {
         margin-top: -0.8em;
     }
 
+    .progress-bar {
+        width: 40%;
+    }
+
     section p {
         font-size: 18px;
     }
@@ -314,7 +323,37 @@ button:hover {
 }
 
 @media screen and (min-width: 1920px) {
+    nav {
+        padding: 0.9em 0;
+    }
+
+    .wrapper {
+        width: 73%;
+    }
+   
     .navigation {
-        padding-top: 12em;
+        padding-top: 10em;
+    }
+
+    .progress-bar {
+        width: 29%;
+    }
+    
+    section p  {
+        width: 67%;
+    }
+
+    .lorem-button {
+        width: 18%;
+    }
+    
+    .dolor-button {
+        width: 18%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .navigation {
+        padding-top: 15em;
     }
 }

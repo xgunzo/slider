@@ -15,5 +15,4 @@ window.onload = function() {
             sectionText.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere quis mi a fermentum. Nulla vel fringilla quam. Quisque a nulla euismod...";
         }
     })
-
 }
