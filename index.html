@@ -15,66 +15,148 @@
         <h1>Menu</h1>
     </nav>
 
-    <div id="slider">
-        <div class="wrapper">
-            <div class="navigation">
-                <li id="first-slide-nav" class="selected"></li>
-                <li id="second-slide-nav"></li>
-                <li id="third-slide-nav"></li>
-            </div>
-            <div class="first-slide">
-                <header>
-                    <h1>Quisque vulputate mi consectetur</h1>
-                    <h2>Nibh dignissim cinvallis</h2>
-                    <div class="progress-bar"></div>
-                </header>
-                <section>
-                    <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed posuere quis mi a fermentum. Nulla vel fringilla quam.
-                        Quisque a nulla euismod...
-                    </p>
-            </div>
+    <div class="slider-container">
 
-            <div class="second-slide">
-                <header>
-                    <h1>Pellentesque eleifend, dui sit amet</h1>
-                    <h2>Mauris diam fermentum massa.</h2>
-                    <div class="progress-bar"></div>
-                </header>
-                <section>
-                    <p class="section-text">Nulla facilisi. Praesent lobortis in purus in bibendum. 
-                        Pellentesque eleifend, 
-                        dui sit amet scelerisque hendrerit, mauris diam fermentum massa, et posuere nisl...
-                    </p>
-            </div>
-
-            <div class="third-slide">
-                <header>
-                    <h1>Nam rhoncus nec nibh sit amet</h1>
-                    <h2>Donec mauris dolor, suscipit a felis auctor.</h2>
-                    <div class="progress-bar"></div>
-                </header>
-                <section>
-                    <p class="section-text">Nulla facilisi. Praesent lobortis in purus in bibendum. 
-                        Pellentesque eleifend, 
-                        dui sit amet scelerisque hendrerit, mauris diam fermentum massa, et posuere nisl...
-                    </p>
-            </div>
-
-            <div class="buttons">
-                <button class="lorem-button">Lorem Ipsum</button>
-                <button class="dolor-button">Dolor sit amet</button>
-            </div>
-
-            <div class="desktop-footer">
-                <p>Lorem ipsum dolor sit amet</p>
+        <!-- Slide 1 -->
+        <div class="slider slide-one active">
+            <div class="wrapper">
+                <div class="navigation">
+                    <li id="first-slide-nav" class="selected"></li>
+                    <li id="second-slide-nav"></li>
+                    <li id="third-slide-nav"></li>
+                </div>
+                <div class="first-slide">
+                    <header>
+                        <h1>Quisque vulputate mi consectetur</h1>
+                        <h2>Nibh dignissim cinvallis</h2>
+                        <div class="progress-bar">
+                            <div class="my-bar my-bar1"></div>
+                        </div>
+                    </header>
+                    <section>
+                        <!-- Wersja mobilna -->
+                        <p class="section-text mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed posuere quis mi a fermentum. Nulla vel fringilla quam.
+                            Quisque a nulla euismod...
+                        </p>
+                        <!-- Wersja desktopowa -->
+                        <p class="section-text desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed posuere quis mi a fermentum. Nulla vel fringilla quam. Quisque a nulla euismod, finibus
+                            est eu, molestie lectus.
+                            Nam rhoncus nec nibh sit amet rhoncus. Donec mauris dolor, suscipit a felis auctor,
+                            dignissim imperdiet mi.
+                            Nulla facilisi. Praesent lobortis in purus in bibendum. Pellentesque eleifend, dui sit amet
+                            scelerisque hendrerit, mauris diam fermentum massa, et posuere nisl orci sed mi. In leo
+                            libero, sollicitudin eu felis in,
+                            egestas ultrices dui. Integer sed libero egestas, faucibus lectus ac, consectetur enim.
+                        </p>
+                </div>
+                <div class="buttons">
+                    <button class="lorem-button">Lorem Ipsum</button>
+                    <button class="dolor-button">Dolor sit amet</button>
+                </div>
+                </section>
+                <div class="desktop-footer">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
             </div>
         </div>
-        </section>
+
+        <!-- Slide 2 -->
+        <div class="slider slide-two">
+            <div class="wrapper">
+                <div class="navigation">
+                    <li id="first-slide-nav"></li>
+                    <li id="second-slide-nav" class="selected"></li>
+                    <li id="third-slide-nav"></li>
+                </div>
+                <div class="second-slide">
+                    <header>
+                        <h1>Pellentesque eleifend, dui sit amet</h1>
+                        <h2>Mauris diam fermentum massa.</h2>
+                        <div class="progress-bar">
+                            <div class="my-bar my-bar2"></div>
+                        </div>
+                    </header>
+                    <section>
+                        <!-- Wersja mobilna -->
+                        <p class="section-text mobile">Nulla facilisi. Praesent lobortis in purus in bibendum.
+                            Pellentesque eleifend,
+                            dui sit amet scelerisque hendrerit, mauris diam fermentum massa, et posuere nisl...
+                        </p>
+                        <!-- Wersja desktopowa -->
+                        <p class="section-text desktop">Nulla facilisi. Praesent lobortis in purus in bibendum.
+                            Pellentesque eleifend, dui sit amet scelerisque hendrerit, mauris diam fermentum massa,
+                            et posuere nisl orci sed mi. In leo libero, sollicitudin eu felis in, egestas ultrices dui.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere quis mi a fermentum.
+                            Nulla vel fringilla quam. Quisque a nulla euismod, finibus est eu, molestie lectus.
+                            Nam rhoncus nec nibh sit amet rhoncus. Donec mauris dolor, suscipit a felis auctor,
+                            dignissim imperdiet mi.
+                        </p>
+                        <div class="buttons">
+                            <button class="lorem-button">Lorem Ipsum</button>
+                            <button class="dolor-button">Dolor sit amet</button>
+                        </div>
+                    </section>
+                    <div class="desktop-footer">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slider slide-three">
+            <div class="wrapper">
+                <div class="navigation">
+                    <li id="first-slide-nav"></li>
+                    <li id="second-slide-nav"></li>
+                    <li id="third-slide-nav" class="selected"></li>
+                </div>
+                <div class="third-slide">
+                    <header>
+                        <h1>Nam rhoncus nec nibh sit amet</h1>
+                        <h2>Donec mauris dolor, suscipit a felis auctor.</h2>
+                        <div class="progress-bar">
+                            <div class="my-bar my-bar3"></div>
+                        </div>
+                    </header>
+                    <section>
+                        <!-- Wersja mobilna -->
+                        <p class="section-text mobile">Nulla facilisi. Praesent lobortis in purus in bibendum.
+                            Pellentesque eleifend,
+                            dui sit amet scelerisque hendrerit, mauris diam fermentum massa, et posuere nisl...
+                        </p>
+                        <!-- Wersja desktopowa -->
+                        <p class="section-text desktop">Quisque a nulla euismod, finibus est eu, molestie lectus.
+                            Nam rhoncus nec nibh sit amet rhoncus. Donec mauris dolor, suscipit a felis auctor,
+                            dignissim imperdiet mi. Nulla facilisi.
+                            Praesent lobortis in purus in bibendum. Pellentesque eleifend, dui sit amet scelerisque
+                            hendrerit, mauris diam fermentum massa,
+                            et posuere nisl orci sed mi. In leo libero, sollicitudin eu felis in, egestas ultrices dui.
+                            Lorem ipsum dolor sit amet,
+                            sed posuere quis mi a fermentum. Nulla vel fringilla quam. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            Sed posuere quis mi a fermentum. Nulla vel fringilla quam.
+                        </p>
+                        <div class="buttons">
+                            <button class="lorem-button">Lorem Ipsum</button>
+                            <button class="dolor-button">Dolor sit amet</button>
+                        </div>
+                    </section>
+                    <div class="desktop-footer">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
     <script src="./js/app.js"></script>
-    <script src="./js/slider.js"></script>
+    <script src="./js/slides.js"></script>
+    <!-- <script src="./js/slider.js"></script> -->
 </body>
 
 </html>
