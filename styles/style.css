@@ -35,7 +35,7 @@
 
     100% {
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(0);
     }
 }
 
@@ -48,7 +48,7 @@
 
     100% {
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateX(0);
     }
 }
 
@@ -109,7 +109,7 @@ nav h1 {
     color: #FFFFFF;
     height: 100%;
     display: none;
-    animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
     animation-timing-function: ease-in-out;
     background-color: #333;
 }
@@ -240,7 +240,7 @@ section p {
     text-align: left;
     letter-spacing: 0.64px;
     line-height: 25px;
-    animation: textAnimation 0.5s;
+    animation: textAnimation 0.s;
     animation-timing-function: ease-in-out;
 }
 
