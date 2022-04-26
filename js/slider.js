@@ -38,6 +38,7 @@ thirdSliderNav.addEventListener("click", function () {
 
 }
 clearTimeout(timeoutHandle);
+
 firstSlide();
 
  export function secondSlide() {
