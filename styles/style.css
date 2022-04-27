@@ -129,7 +129,7 @@ nav h1 {
     background-repeat: none;
     background-size: cover;
     background-position-x: 50%;
-    background-position-y: 75%;
+    background-position-y: 75%; 
 }
 
 /* Slide 2 */
@@ -307,7 +307,7 @@ button:hover {
     display: none;
 }
 
-@media screen and (min-width: 417px) {
+@media screen and (min-width: 361px) {
     .slider {
         height: 100vh;
     }
